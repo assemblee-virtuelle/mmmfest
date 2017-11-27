@@ -173,7 +173,6 @@ class WebserviceController extends Controller
                 ->addOptional('?uri','pair:comment','?desc','?GR');
                 //->addOptional('?uri','pair:hostedIn','?building','?GR');
             if($term)$orgaSparql->addFilter('contains( lcase(?title) , lcase("'.$term.'")) || contains( lcase(?desc)  , lcase("'.$term.'")) ');
-            dump($orgaSparql->getQuery());
             $results = $sfClient->sparql($orgaSparql->getQuery());
             $organizations = $sfClient->sparqlResultsValues($results);
         }
