@@ -43,8 +43,8 @@ If you get some errors trying to activate this new user, like the following mess
 - Access your [Semantic Forms install](http://localhost:9000)
 - Log in if you are not yet
 - Then in the standard form, load by copying and pasting into the "Display" field the following URLs:
-  - http://assemblee-virtuelle.github.io/mmmfest/mm-forms.ttl
-  - http://assemblee-virtuelle.github.io/mmmfest/PAIR_temp.owl
+  - http://assemblee-virtuelle.github.io/mmmfest/semapps-form.ttl
+  - http://virtual-assembly.org/pair/PAIR_v3.owl
 
 Click the "Display" button for both and then try accessing the profile page again and the issue should be solved !
 
